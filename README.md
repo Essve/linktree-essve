@@ -1,63 +1,44 @@
-<!DOCTYPE html><html lang="en">
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>House of ESSVÉ</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
+      background-color: #ffffff;
+      color: #111;
+      font-family: sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 40px 20px;
-      margin: 0;
-    }.container {
-  background: #fff;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.bio {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 25px;
-}
-
-a.button {
-  display: block;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  margin: 10px 0;
-  font-weight: 500;
-  transition: background 0.3s;
-}
-
-a.button:hover {
-  background-color: #333;
-}
-
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .link {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 15px 25px;
+      margin: 10px 0;
+      text-decoration: none;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .link:hover {
+      background-color: #4CAF50; /* ESSVÉ green */
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>House of ESSVÉ</h1>
-    <p class="bio">Crafted with style & passion — Shop your vibe.</p><a href="https://shopee.co.id" class="button" target="_blank">🛒 Shopee</a>
-<a href="https://tiktok.com" class="button" target="_blank">🎵 TikTok</a>
-
-  </div>
+  <h1>House of ESSVÉ</h1>
+  <a href="https://shopee.co.id/..." class="link">🛒 Shopee</a>
+  <a href="https://www.tiktok.com/@" class="link">🎵 TikTok</a>
 </body>
 </html>
