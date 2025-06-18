@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House of ESSVÉ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bio {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+a.button {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+a.button:hover {
+  background-color: #333;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>House of ESSVÉ</h1>
+    <p class="bio">Crafted with style & passion — Shop your vibe.</p><a href="https://shopee.co.id" class="button" target="_blank">🛒 Shopee</a>
+<a href="https://tiktok.com" class="button" target="_blank">🎵 TikTok</a>
+
+  </div>
+</body>
+</html>
